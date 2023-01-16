@@ -57,7 +57,7 @@
 
 }
 .content{
-	font-size: 30px;
+	font-size: 80px;
 	margin-top: 70px;
 }
 .content p{
@@ -65,17 +65,26 @@
 	font-weight: 100;
 	line-height: 25px;
 }
-button{
-	width: 200px;
-	padding: 15px 0;
-	text-align: center;
-	margin: 20px 10px;
-	border-radius: 25px;
-	font-weight: bold;
-	border: 2px solid #ccff00;
-	background: transparent;
-	color: #fff;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
+.cover-arrow {
+    bottom: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    width: 40px;
+    z-index: 10;
+
+ }
+ .button-icon {
+    align-items: center;
+    background-color: #ccff00;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    height: 30px;
+    justify-content: center;
+    outline: none;
+    padding: 0;
+    width: 30px;
+    transform: rotate(90deg);
 }
